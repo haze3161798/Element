@@ -46,11 +46,26 @@
     transform-origin: left;
   }
 }
+.check-box-input {
+  display: none;
+  pointer-events: none;
+
+  &:checked ~ .check-box-label {
+    border: 0;
+
+    &::after {
+      transform: rotate(45deg) scale(1);
+    }
+    &::before {
+      transform: rotate(-45deg) scale(1);
+    }
+  }
+}
 .check-box-label {
   border: 2px solid #45bedb;
   width: 18px;
   height: 18px;
-  border-radius: 5px;
+  border-radius: 6px;
 
   &::after {
     content: '';

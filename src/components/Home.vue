@@ -16,7 +16,7 @@
           <label class="d-block px-2" for="radio-box2">radio-box2</label>
         </div>
         <div class="mx-2 d-flex align-items-center">
-          <input class="radio-box-input" type="checkbox" id="check" value="0" />
+          <input class="check-box-input" type="checkbox" id="check" value="0" />
           <label class="check-box-label position-relative" for="check"> </label>
           <label class="d-block px-2" for="check">check-box</label>
         </div>
